@@ -1,108 +1,61 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# PP1 SDLC Humberto Pereira
 
-Welcome USER_NAME,
+## 1.	PLANNING:
+### Customer: Code Institute
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## 2.	REQUIREMENT ANALYSIS
+- 1.1	Design a website that incorporates a main navigation menu and a structured layout
+- 1.2	Design a website that meets accessibility guidelines (e.g. contrast between background and foreground colours, non-text elements have planned alt text equivalents to cater for the visually impaired)
+- 1.3	Design the organisation of information on the page following the principles of user experience design (headers are used to convey structure, information is easy to find due to being presented and categorised in terms of priority)
+- 1.4	Ensure that foreground information is never distracted by backgrounds
+- 1.5	Include graphics that are consistent in style and colour
+- 1.6	Design the site to allow the user to initiate and control actions such as the playing of audio/video.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+- 2.1	Create a website of at least three pages, or (if using a single scrolling page) at least three separate page areas to match the design and to meet its stated purpose
+- 2.2	Write custom HTML code that passes through the official W3C validator with no issues.
+- 2.3  Write custom CSS code that passes through the official (Jigsaw) validator with no issues
+- 2.4  Incorporate images that are of sufficient resolution to not appear pixelated or stretched
+- 2.5  Code all external links to open in a separate tab when clicked
+- 2.6  Use CSS media queries across the application to ensure the layout changes appropriately and maintains the page's structural integrity across device screen sizes.
+- 2.7  Use Semantic markup to structure HTML code
+- 2.8  Present the finished website with clearly understandable site-specific content rather than Lorem Ipsum placeholder text
+- 2.9  Implement clear navigation to allow users to intuitively find resources on the site.
 
-## Gitpod Reminders
+# TICKETS:
+## Thematic: historical technology blog with four posts HTML, CSS, JAVASCRIPT, (GIT GITPOD AND GITHUB)
+- 1- Landing page
+- 2- Menu: HOME “Landing Page,” BLOG:,” SUBSCRIBE Form, CONTACT, “ 4 clickable blog cards that redirect to the content and a 404 error page
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+# 3.	DESIGN:
+## Technologies: HTML CSS.
+- Menu: HOME, BLOG, SUBSCRIBE, CONTACT 
+- HOME: Landing page; logo, a brief text welcoming the user and describing the webpage, under the welcome text, four clickable blog cards. 
+- BLOG: Link to blog cards.
+- SUBSCRIBE form page.      
+- CONTACT: redirect to footer with contact info. All pages follow the same style and color pattern and a footer. 
+- Burger menu for mobile.
 
-Another blue button should appear to click: _Open Browser_.
+# WIREFRAMES
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+![Alt text](assets/images/New%20Wireframe%201.jpg)
+ 
+![Alt text](assets/images/New%20Wireframe%202.jpg)
+ 
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+# 4.	IMPLEMENTATION / CODING
+- Well-organized and structured HTML, and CSS code.
 
-To log into the Heroku toolbelt CLI:
+# 5.	TESTING:
+- Manual testing checks if all links work as expected, with no bugs, test different screen sizes, test at the W3C validator, test at the CSS official (Jigsaw) validator, and test the accessibility Lighthouse Chrome dev tools.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+# 6.	DEPLOYMENT:
+- GitHub, GitHub – pages.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+# 7.	MAINTENANCE:
+- Maximise future maintainability through documentation, code structure, and organization.
 
-------
 
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
