@@ -28,29 +28,29 @@
 - 404 error page
 - Burger menu for mobile.
 
-<img src="assets/images/site-map.png" width="700"/>
+<img src="assets/readme-md-images/site-map.png" width="700"/>
 
 # WIREFRAMES
 
 # Home
 
-<img src="assets/images/home.png" width="400"/>
+<img src="assets/readme-md-images/home.png" width="400"/>
 
 # Example of a Post Content Page
  
-<img src="assets/images/content.png" width="400"/>
+<img src="assets/readme-md-images/content.png" width="400"/>
  
 # Subscribe
 
-<img src="assets/images/subscribe-form.png" width="400"/>
+<img src="assets/readme-md-images/subscribe-form.png" width="400"/>
 
 # Contact
 
-<img src="assets/images/contact.png" width="400"/>
+<img src="assets/readme-md-images/contact.png" width="400"/>
 
 # Mobile
 
-<img src="assets/images/group-mobile.png" width="550"/>
+<img src="assets/readme-md-images/group-mobile.png" width="550"/>
 
 # IMPLEMENTATION / CODING
 - Well-organized and structured HTML, and CSS code.

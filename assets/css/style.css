@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Teko&family=Unbounded&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* nav bar */
+
+#nav-bar {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-bar a {
+  text-decoration: none;
+}
+
+#nav-bar ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 20px 0 0; 
+  font-family: Teko;
+  font-size: 30px;
+}
+
