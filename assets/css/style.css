@@ -45,28 +45,52 @@
   justify-content: center;
   align-items: center;
 }
+/* header */
 
-#home-header{
+#home-header {
   background: linear-gradient(35deg,rgba(48, 36, 255, .7), rgba(67, 221, 203, 1));
   margin: 0 2% 0 2%;
 }
 
-#home-header > h1{
+#home-header > h1 {
   color: white;
   font-family: Teko;
   text-align: center;
   font-size: 48px;
 }
 
-#home-header > h2{
+#home-header > h2 {
   color: white;
   font-family: Teko;
   text-align: center;
   font-size: 24px;
 }
 
-#home-header > p{
+#home-header > p {
   color: white;
   font-size: 20px;
   padding: 2%;
+}
+
+#cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+
+.cards{
+  background: white;
+  border: 2px solid black;
+  
+}
+
+.cards > img {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+.cards > h4{
+  text-align: center;
 }
