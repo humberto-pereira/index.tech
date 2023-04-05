@@ -88,11 +88,11 @@
   align-items: center;
 }
 
-.cards{
+.cards {
   background: linear-gradient(to right, #FFFFFF, #ECE9E6);
-  /* border: .7px solid black; */
+  height: 420px;
   border-radius: 2%;
-  height: 350px;
+  margin-bottom: 100px;
 }
 
 .cards > img {
@@ -103,12 +103,13 @@
 
 .cards > p {
   text-align: center;
+  padding: 0 3% 0 3%;
 }
 
 /* code learned at Web Dev simplified channel youtube */
 
 .cut-text {
-  --max-lines: 5;
+  --max-lines: 7;
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
@@ -119,3 +120,20 @@
   text-decoration: none;
   color: #000;
 }
+
+/* footer */
+
+#footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px;
+  font-family: Teko;
+  font-size: 32px;
+}
+
+#footer-container a {
+  text-decoration: none;
+  color: rgba(48, 36, 255, .85);
+  height: 65px;
+}
+
