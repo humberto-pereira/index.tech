@@ -8,6 +8,7 @@
 }
 
 /* nav bar */
+
 .logo {
   width: 70%;
 }
@@ -18,9 +19,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2%;
+  margin: 1%;
+  position: fixed;
+  width: 98%;
+  
 }
 /* navbar-links */
+
 #nav-bar a {
   text-decoration: none;
 }
@@ -38,6 +43,7 @@
 
 #home-image {
   width: 30%;
+  margin-top: 5%;
 }
 
 #image-container {
@@ -45,11 +51,11 @@
   justify-content: center;
   align-items: center;
 }
-/* header */
+/* header-section */
 
 #home-header {
-  background: linear-gradient(35deg,rgba(48, 36, 255, .85), rgba(67, 221, 203, 1));
-  margin: 0 2% 0 2%;
+  background: linear-gradient(230deg,rgba(48, 36, 255, .85), rgba(67, 221, 203, 1));
+  margin: 0 1% 0 1%;
 }
 
 #home-header > h1 {
@@ -71,6 +77,8 @@
   font-size: 20px;
   padding: 2%;
 }
+
+/* cards section */
 
 #cards-container {
   display: flex;
@@ -96,10 +104,18 @@
 .cards > p {
   text-align: center;
 }
+
+/* code learned at Web Dev simplified channel youtube */
+
 .cut-text {
   --max-lines: 5;
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: var(--max-lines);
+}
+
+.card-link {
+  text-decoration: none;
+  color: #000;
 }
