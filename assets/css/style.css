@@ -11,10 +11,11 @@
 
 .logo {
   width: 70%;
+  margin-left: 3%;
 }
 
 #nav-bar {
-  height: 65px;
+  height: 70px;
   background: linear-gradient(35deg,rgba(48, 36, 255, .87), rgba(67, 221, 203, 1));;
   display: flex;
   justify-content: space-between;
@@ -22,7 +23,7 @@
   margin: 1%;
   position: fixed;
   width: 98%;
-  
+  border-radius: 1%;
 }
 /* navbar-links */
 
@@ -56,6 +57,7 @@
 #home-header {
   background: linear-gradient(230deg,rgba(48, 36, 255, .85), rgba(67, 221, 203, 1));
   margin: 0 1% 0 1%;
+  border-radius: .7%;
 }
 
 #home-header > h1 {
@@ -63,21 +65,22 @@
   font-family: Teko;
   text-align: center;
   font-size: 48px;
+  padding-top: 3%;
 }
 
 #home-header > h2 {
   color: white;
-  font-family: Teko;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   font-size: 24px;
-  margin: .7%;
+  margin: 2% ;
 }
 
 #home-header > p {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
-  padding: .7% 2% .7% 2%;
+  margin: 1% 2% 1% 2%;
 }
 
 /* cards section */
@@ -85,7 +88,7 @@
 #cards-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 0 30px 0 30px;
+  margin: 60px 30px 0 30px;
   gap: 30px;
   align-items: center;
 }
@@ -94,7 +97,7 @@
   background: linear-gradient(to right, #FFFFFF, #ECE9E6);
   height: 420px;
   border-radius: 2%;
-  margin-bottom: 100px;
+  margin-bottom: 55px;
 }
 
 .cards > img {
@@ -104,8 +107,10 @@
 }
 
 .cards > p {
-  text-align: center;
-  padding: 0 3% 0 3%;
+  text-align: left;
+  padding: 0 5% 0 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(48, 36, 255, .85);
 }
 
 /* code learned at Web Dev simplified channel youtube */
@@ -128,7 +133,7 @@
 #footer-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 80px;
+  margin: 60px;
   font-family: Teko;
   font-size: 32px;
 }
@@ -136,6 +141,14 @@
 #footer-container a {
   text-decoration: none;
   color: rgba(48, 36, 255, .85);
-  height: 65px;
+  height: 6opx;
+}
+
+#copyright {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+  font-size: 20px;
+  color: rgba(48, 36, 255, .85);
 }
 
