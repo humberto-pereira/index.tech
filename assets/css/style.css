@@ -106,6 +106,20 @@
   margin: auto;
 }
 
+#github-image {
+  width: 210px;
+  padding-bottom: 0;
+}
+
+#github-title {
+text-align: center;
+font-family: Teko;
+font-size: 40px;
+padding-top: 7px;
+color: #000;
+font-weight: bold;
+}
+
 .cards > p {
   text-align: left;
   padding: 0 5% 0 5%;
