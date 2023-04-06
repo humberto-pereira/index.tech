@@ -9,10 +9,15 @@
 
 /* nav bar */
 
-.logo {
+#logo {
   width: 70%;
   margin-left: 3%;
 }
+
+#logo:hover {
+  width: 80%;
+}
+
 
 #nav-bar {
   height: 70px;
@@ -25,10 +30,16 @@
   width: 98%;
   border-radius: 1%;
 }
+
+
 /* navbar-links */
 
 #nav-bar a {
   text-decoration: none;
+}
+
+#nav-bar ul li:hover {
+  color: rgba(48, 36, 255, .87);
 }
 
 #nav-bar ul li {
@@ -98,6 +109,10 @@
   height: 420px;
   border-radius: 2%;
   margin-bottom: 55px;
+}
+
+.cards:hover {
+  border: solid 1.5px black;
 }
 
 .cards > img {
