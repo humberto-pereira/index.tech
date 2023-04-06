@@ -35,7 +35,7 @@
   list-style-type: none;
   display: inline;
   margin: 0 20px 0 0; 
-  font-family: Teko;
+  font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
   color: white;
 }
@@ -62,7 +62,7 @@
 
 #home-header > h1 {
   color: white;
-  font-family: Teko;
+  font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   font-size: 48px;
   padding-top: 3%;
@@ -134,7 +134,7 @@
   display: flex;
   justify-content: space-evenly;
   margin: 60px;
-  font-family: Teko;
+  font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 32px;
 }
 
