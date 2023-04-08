@@ -18,6 +18,7 @@
   width: 80%;
 }
 
+/* navbar-links */
 
 #nav-bar {
   height: 70px;
@@ -30,9 +31,6 @@
   width: 98%;
   border-radius: 1%;
 }
-
-
-/* navbar-links */
 
 #nav-bar a {
   text-decoration: none;
@@ -51,6 +49,10 @@
   color: white;
 }
 
+.active {
+  color: rgb(48, 36, 255) !important;
+}
+
 /* home-section */
 
 #home-image {
@@ -65,13 +67,13 @@
 }
 /* header-section */
 
-#home-header {
+#header {
   background: linear-gradient(230deg,rgba(48, 36, 255, .85), rgba(67, 221, 203, 1));
   margin: 0 1% 0 1%;
   border-radius: .7%;
 }
 
-#home-header > h1 {
+#header > h1 {
   color: white;
   font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
@@ -79,7 +81,7 @@
   padding-top: 3%;
 }
 
-#home-header > h2 {
+#header > h2 {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
@@ -87,7 +89,7 @@
   margin: 2% ;
 }
 
-#home-header > p {
+#header > p {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
@@ -181,3 +183,142 @@ font-weight: bold;
   color: rgba(48, 36, 255, .85);
 }
 
+#form-header{
+  font-size: 42px;
+  font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 2%;
+  color: rgba(48, 36, 255, .85);
+}
+
+#envelope-image {
+  display: block;
+  margin: auto;
+  width: 110px;
+}
+
+#form-container{
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe-form {
+  display: flex;
+  padding: 3%;
+  flex-grow: 1;
+  max-width: 500px;
+  flex-direction: column;
+  background: linear-gradient(230deg,rgba(48, 36, 255, .85), rgba(67, 221, 203, 1));
+  margin-bottom: 80px;
+  border-radius: .7%;
+}
+
+#form-container label {
+  margin-top: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.text-input {
+  height: 25px;
+}
+
+/* terms and conditions */
+
+#terms-check-box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: baseline;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+#terms {
+  color: #FFFFFF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  --max-lines: 3;
+  --line-height: 1.4;
+/* Calculate how many lines is shown at the terms and conditions text "height"*/
+  max-height: calc(var(--max-lines) * 2.4em * var(--line-height));
+  line-height: var(--line-height);
+  overflow: hidden;
+  position: relative;
+}
+
+/* tells whats happen when button is at expand state "not activated" */
+#terms:has(+ #expand-btn:not(:checked))::before {
+  content: "";
+  position: absolute;
+  height: calc(1em * var(--line-height));
+  width: 100%;
+  bottom: 0;
+  pointer-events: none;
+}
+
+#terms p{
+  margin-top: 1em;
+}
+
+/* expand-collapse button style (the button is an html check-box so it can have two states label "expand and collapse")*/
+#expand-btn {
+  appearance: none;
+  width: 100px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+  margin: 20px 0 0 0;
+  color: #FFFFFF;
+  background-color: rgba(48, 36, 255, .6);
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+#expand-btn:hover {
+  background-color: #ffffff;
+  color: rgba(48, 36, 255, 1);
+}
+
+/* two states button labels */
+#expand-btn::before{
+  content: "Expand";
+}
+
+#expand-btn:checked::before {
+  content: "Collapse";
+}
+
+/* remove max height "collapse"  button state*/
+#terms:has(+ #expand-btn:checked) {
+  max-height: none;
+}
+
+
+
+.submit-button {
+  width: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 5px;
+  margin: 20px 0 0 0;
+  color: #FFFFFF;
+  background-color: rgba(48, 36, 255, .6);
+  border-radius: 5%;
+}
+
+
+
+.submit-button:hover {
+  color: rgba(48, 36, 255, 1);
+  background-color: #FFFFFF;
+}
+
+.text-input:hover {
+  border: solid 2px rgba(48, 36, 255, 1);
+}
