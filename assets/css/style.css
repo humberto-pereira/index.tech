@@ -20,7 +20,7 @@
 
 /* navbar-links */
 
-#nav-bar {
+#navbar {
   height: 70px;
   background: linear-gradient(35deg,rgba(48, 36, 255, .87), rgba(67, 221, 203, 1));;
   display: flex;
@@ -32,15 +32,15 @@
   border-radius: 1%;
 }
 
-#nav-bar a {
+#navbar a {
   text-decoration: none;
 }
 
-#nav-bar ul li:hover {
+#navbar ul li:hover {
   color: rgba(48, 36, 255, .87);
 }
 
-#nav-bar ul li {
+#navbar ul li {
   list-style-type: none;
   display: inline;
   margin: 0 20px 0 0; 
@@ -141,7 +141,7 @@ font-weight: bold;
   text-align: left;
   padding: 0 5% 0 5%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgba(48, 36, 255, .85);
+  color: #3c3c3c;
 }
 
 /* code learned at Web Dev simplified channel youtube */
@@ -156,7 +156,32 @@ font-weight: bold;
 
 .card-link {
   text-decoration: none;
-  color: #000;
+  color: #3c3c3c;
+}
+
+/* articles pages */
+
+#article-image{
+  margin: 10% 0 5% 0;
+  width: 20%;
+}
+
+#article {
+  display: block;
+  margin: auto;
+  text-align: left;
+  max-width: 70%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.6em;
+  color: #3c3c3c
+  /* background: linear-gradient(230deg,rgba(48, 36, 255, .85), rgba(67, 221, 203, 1));
+  color: #FFFFFF;
+  padding: 5%; */
+}
+
+#article p{
+  margin: 1em 0 1em 0;
 }
 
 /* footer */
@@ -183,7 +208,8 @@ font-weight: bold;
   color: rgba(48, 36, 255, .85);
 }
 
-#form-header{
+/* form subscribe */
+#form-header {
   font-size: 42px;
   font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
@@ -197,7 +223,7 @@ font-weight: bold;
   width: 110px;
 }
 
-#form-container{
+#form-container {
   display: flex;
   justify-content: center;
 }
@@ -257,7 +283,7 @@ font-weight: bold;
   pointer-events: none;
 }
 
-#terms p{
+#terms p {
   margin-top: 1em;
 }
 
@@ -286,7 +312,7 @@ font-weight: bold;
 }
 
 /* two states button labels */
-#expand-btn::before{
+#expand-btn::before {
   content: "Expand";
 }
 
@@ -322,3 +348,5 @@ font-weight: bold;
 .text-input:hover {
   border: solid 2px rgba(48, 36, 255, 1);
 }
+
+
