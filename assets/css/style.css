@@ -536,8 +536,16 @@ font-weight: bold;
 }
 
 #terms {
+  margin-top: 20px;
   color: #FFFFFF;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 400px;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+#terms p {
+  margin-top: 1em;
 }
 
 .submit-button {
