@@ -69,7 +69,7 @@
 
 #header {
   background: linear-gradient(230deg,rgba(48, 36, 255, .85), rgba(67, 221, 203, 1));
-  margin: 0 1% 0 1%;
+  margin: 0 1% 10% 1%;
   border-radius: .7%;
 }
 
@@ -123,6 +123,15 @@
   margin: auto;
 }
 
+.cards > p {
+  text-align: left;
+  padding: 0 5% 0 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3c3c3c;
+}
+
+/* github card */
+
 #github-image {
   width: 210px;
   padding-bottom: 0;
@@ -135,13 +144,6 @@ font-size: 40px;
 padding-top: 7px;
 color: #000;
 font-weight: bold;
-}
-
-.cards > p {
-  text-align: left;
-  padding: 0 5% 0 5%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #3c3c3c;
 }
 
 /* code learned at Web Dev simplified channel youtube */
@@ -181,11 +183,27 @@ font-weight: bold;
   margin: 1em 0 1em 0;
 }
 
-/* contact */
-#contact {
+/* feedback */
+
+#feedback {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#feedback { 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  color: #3c3c3c;
+}
+
+#feedback-title {
+  font-size: 1rem;
+  color: rgba(48, 36, 255, 1);
+}
+
+#feedback-button{
+  margin-bottom: 60px;
 }
 
 /* footer */
@@ -213,6 +231,7 @@ font-weight: bold;
 }
 
 /* form subscribe */
+
 #form-header {
   font-size: 42px;
   font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
@@ -268,279 +287,7 @@ font-weight: bold;
 #terms {
   color: #FFFFFF;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Teko&family=Unbounded&display=swap');
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* nav bar */
-
-#logo {
-  width: 70%;
-  margin-left: 3%;
-}
-
-#logo:hover {
-  width: 80%;
-}
-
-/* navbar-links */
-
-#navbar {
-  height: 70px;
-  background: linear-gradient(35deg,rgba(48, 36, 255, .87), rgba(67, 221, 203, 1));;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 1%;
-  position: fixed;
-  width: 98%;
-  border-radius: 1%;
-}
-
-#navbar a {
-  text-decoration: none;
-}
-
-#navbar ul li:hover {
-  color: rgba(48, 36, 255, .87);
-}
-
-#navbar ul li {
-  list-style-type: none;
-  display: inline;
-  margin: 0 20px 0 0; 
-  font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
-  color: white;
-}
-
-.active {
-  color: rgb(48, 36, 255) !important;
-}
-
-/* home-section */
-
-#home-image {
-  width: 30%;
-  margin-top: 5%;
-}
-
-#image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/* header-section */
-
-#header {
-  background: linear-gradient(230deg,rgba(48, 36, 255, .85), rgba(67, 221, 203, 1));
-  margin: 0 1% 0 1%;
-  border-radius: .7%;
-}
-
-#header > h1 {
-  color: white;
-  font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-  font-size: 48px;
-  padding-top: 3%;
-}
-
-#header > h2 {
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-  font-size: 24px;
-  margin: 2% ;
-}
-
-#header > p {
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  margin: 1% 2% 1% 2%;
-}
-
-/* cards section */
-
-#cards-container {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 60px 30px 0 30px;
-  gap: 30px;
-  align-items: center;
-}
-
-.cards {
-  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
-  height: 420px;
-  border-radius: 2%;
-  margin-bottom: 55px;
-}
-
-.cards:hover {
-  border: solid 1.5px black;
-}
-
-.cards > img {
-  width: 250px;
-  display: block;
-  margin: auto;
-}
-
-#github-image {
-  width: 210px;
-  padding-bottom: 0;
-}
-
-#github-title {
-text-align: center;
-font-family: Teko;
-font-size: 40px;
-padding-top: 7px;
-color: #000;
-font-weight: bold;
-}
-
-.cards > p {
-  text-align: left;
-  padding: 0 5% 0 5%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #3c3c3c;
-}
-
-/* code learned at Web Dev simplified channel youtube */
-
-.cut-text {
-  --max-lines: 7;
-  display: -webkit-box;
-  overflow: hidden;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: var(--max-lines);
-}
-
-.card-link {
-  text-decoration: none;
-  color: #3c3c3c;
-}
-
-/* articles pages */
-
-#article-image{
-  margin: 10% 0 5% 0;
-  width: 20%;
-}
-
-#article {
-  display: block;
-  margin: auto;
-  text-align: left;
-  max-width: 70%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.3em;
-  line-height: 1.6em;
-  color: #3c3c3c;
-}
-
-#article p {
-  margin: 1em 0 1em 0;
-}
-
-/* contact */
-#contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* footer */
-
-#footer-container {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 60px;
-  font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 32px;
-}
-
-#footer-container a {
-  text-decoration: none;
-  color: rgba(48, 36, 255, .85);
-  height: 6opx;
-}
-
-#copyright {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 60px;
-  font-size: 20px;
-  color: rgba(48, 36, 255, .85);
-}
-
-/* form subscribe */
-#form-header {
-  font-size: 42px;
-  font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-  padding: 2%;
-  color: rgba(48, 36, 255, .85);
-}
-
-#envelope-image {
-  display: block;
-  margin: auto;
-  width: 110px;
-}
-
-#form-container {
-  display: flex;
-  justify-content: center;
-}
-
-.subscribe-form {
-  display: flex;
-  padding: 3%;
-  flex-grow: 1;
-  max-width: 500px;
-  flex-direction: column;
-  background: linear-gradient(230deg,rgba(48, 36, 255, .85), rgba(67, 221, 203, 1));
-  margin-bottom: 80px;
-  border-radius: .7%;
-}
-
-#form-container label {
-  margin-top: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #FFFFFF;
-  font-size: 20px;
-}
-
-.text-input {
-  height: 25px;
-}
-
-/* terms and conditions */
-
-#terms-check-box {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-  align-items: baseline;
-  margin-top: 10px;
-  gap: 10px;
-}
-
-#terms {
-  margin-top: 20px;
-  color: #FFFFFF;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 400px;
-  height: 200px;
+  height:200px;
   overflow-y: scroll;
 }
 
@@ -558,3 +305,5 @@ font-weight: bold;
   background-color: rgba(48, 36, 255, 1);
   border-radius: 5%;
 }
+
+
