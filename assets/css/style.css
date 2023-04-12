@@ -151,7 +151,6 @@ font-weight: bold;
 .cut-text {
   height: 10em;
   text-overflow: ellipsis;
-  white-space: wrap;
   overflow: hidden;
 }
 
@@ -218,7 +217,6 @@ font-weight: bold;
 #footer-container a {
   text-decoration: none;
   color: rgba(48, 36, 255, .85);
-  height: 6opx;
 }
 
 #copyright {
