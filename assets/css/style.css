@@ -109,13 +109,13 @@
 }
 
 .cards {
-  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(236, 233, 230));
   border-radius: 2%;
   margin-bottom: 30%;
 }
 
 .cards:hover {
-  border: solid 1.5px black;
+  border: solid 1.5px rgb(60, 60, 60);
 }
 
 .cards > img {
@@ -128,7 +128,7 @@
   text-align: left;
   padding: 0 5% 0 5%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #3c3c3c;
+  color: rgb(60, 60, 60);
 }
 
 /* github card */
@@ -143,7 +143,7 @@
   font-family: Teko;
   font-size: 40px;
   padding-top: 7px;
-  color: #000;
+  color: rgb(0, 0, 0);
   font-weight: bold;
 }
 
@@ -157,7 +157,7 @@
 
 .card-link {
   text-decoration: none;
-  color: #3c3c3c;
+  color: rgb(60, 60, 60);
 }
 
 /* articles pages */
@@ -175,7 +175,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.3em;
   line-height: 1.6em;
-  color: rgb(60,60,60);
+  color: rgb(60, 60, 60);
 }
 
 #article p {
@@ -190,7 +190,7 @@
   align-items: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1em;
-  color: rgb(60,60,60);
+  color: rgb(60, 60, 60);
 }
 
 #feedback-title {
@@ -260,7 +260,7 @@
 #form-container label {
   margin-top: 3%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #FFFFFF;
+  color: rgb(255, 255, 255);
   font-size: 1.5em;
 }
 
@@ -280,7 +280,7 @@
 }
 
 #terms {
-  color: #FFFFFF;
+  color: rgb(255, 255, 255);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 198px;
   margin-top: 5%;
@@ -297,7 +297,7 @@
   font-size: 20px;
   padding: 5px;
   margin: 20px 0 0 0;
-  color: #FFFFFF;
+  color: rgb(255, 255, 255);
   background-color: rgba(48, 36, 255, 1);
   border-radius: 5%;
 }
