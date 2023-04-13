@@ -36,7 +36,7 @@
   text-decoration: none;
   margin: 0 20px 0 0;
   font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: 2em;
   color: white;
 }
 
@@ -78,15 +78,15 @@
   color: white;
   font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  font-size: 48px;
-  padding-top: 3%;
+  font-size: 3em;
+  padding-top: 4%;
 }
 
 #header > h2 {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5;
   margin: 2%;
 }
 
@@ -95,6 +95,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   margin: 1% 2% 1% 2%;
+  padding: 0 3% 0 3%;
 }
 
 /* cards section */
@@ -102,16 +103,15 @@
 #cards-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 60px 30px 0 30px;
-  gap: 30px;
+  margin: 6% 3% 0% 3%;
+  gap: 2%;
   align-items: center;
 }
 
 .cards {
   background: linear-gradient(to right, #FFFFFF, #ECE9E6);
-  height: 420px;
   border-radius: 2%;
-  margin-bottom: 55px;
+  margin-bottom: 30%;
 }
 
 .cards:hover {
@@ -175,7 +175,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.3em;
   line-height: 1.6em;
-  color: #3c3c3c;
+  color: rgb(60,60,60);
 }
 
 #article p {
@@ -190,7 +190,7 @@
   align-items: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1em;
-  color: #3c3c3c;
+  color: rgb(60,60,60);
 }
 
 #feedback-title {
@@ -199,7 +199,7 @@
 }
 
 #feedback-button {
-  margin-bottom: 60px;
+  margin-bottom: 10%;
 }
 
 /* footer */
@@ -207,9 +207,9 @@
 #footer-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 60px;
+  margin: 5%;
   font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 32px;
+  font-size: 2em;
 }
 
 #footer-container a {
@@ -220,15 +220,15 @@
 #copyright {
   display: flex;
   justify-content: center;
-  padding-bottom: 60px;
-  font-size: 20px;
+  padding-bottom: 5%;
+  font-size: 1em;
   color: rgba(48, 36, 255, .85);
 }
 
 /* form subscribe */
 
 #form-header {
-  font-size: 42px;
+  font-size: 2.5em;
   font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   padding: 2%;
@@ -238,7 +238,7 @@
 #envelope-image {
   display: block;
   margin: auto;
-  width: 110px;
+  width: 25%;
 }
 
 #form-container {
@@ -250,22 +250,22 @@
   display: flex;
   padding: 3%;
   flex-grow: 1;
-  max-width: 500px;
+  max-width: 40%;
   flex-direction: column;
   background: linear-gradient(230deg, rgba(48, 36, 255, .85), rgba(67, 221, 203, 1));
-  margin-bottom: 80px;
+  margin-bottom: 2%;
   border-radius: .7%;
 }
 
 #form-container label {
-  margin-top: 15px;
+  margin-top: 3%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 1.5em;
 }
 
 .text-input {
-  height: 25px;
+  height: 5%;
 }
 
 /* terms and conditions */
@@ -275,15 +275,15 @@
   flex-direction: row-reverse;
   justify-content: flex-end;
   align-items: baseline;
-  margin-top: 10px;
-  gap: 10px;
+  margin-top: 2%;
+  gap: 5%;
 }
 
 #terms {
   color: #FFFFFF;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  height: 200px;
-  margin-top: 20px;
+  height: 198px;
+  margin-top: 5%;
   overflow-y: scroll;
 }
 
