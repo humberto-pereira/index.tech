@@ -286,7 +286,7 @@
   border-radius: 5%;
 }
 
-@media (max-width: 1100px){
+@media (min-width: 810px){
   #cards-container {
     display: grid;
     grid-template-columns: 45% 45%;
@@ -323,12 +323,12 @@
       
     }
 
-    #github-card{
+    #github-card { 
         margin-bottom: 60%;
     }
       
 
-    #header > p{
+    #header > p { 
         display: none;
         
     }
