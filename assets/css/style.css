@@ -125,26 +125,10 @@
 }
 
 .cards > p {
-  text-align: left;
-  padding: 0 5% 0 5%;
+  text-align: center;
+  padding: 0 5% 5% 5%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(60, 60, 60);
-}
-
-/* github card */
-
-#github-image {
-  width: 210px;
-  padding-bottom: 0;
-}
-
-#github-title {
-  text-align: center;
-  font-family: Teko;
-  font-size: 40px;
-  padding-top: 7px;
-  color: rgb(0, 0, 0);
-  font-weight: bold;
 }
 
 /* fit text inside the card */
@@ -301,3 +285,37 @@
   background-color: rgba(48, 36, 255, 1);
   border-radius: 5%;
 }
+
+@media (max-width: 1100px){
+  #cards-container {
+    display: grid;
+    grid-template-columns: 45% 45%;
+  }
+
+  .cards {
+    margin-bottom: 10%;
+
+  }
+}
+
+@media (max-width: 680px){
+    #cards-container {
+      display: grid;
+      grid-template-columns: 90%;
+      
+    }
+
+    #github-card{
+        margin-bottom: 60%;
+    }
+
+    #header > p{
+        display: none;
+        
+    }
+  
+    .cards {
+      margin: 5% 0 5% 0;
+  
+    }
+  }
