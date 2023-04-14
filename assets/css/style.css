@@ -296,6 +296,24 @@
     margin-bottom: 10%;
 
   }
+
+  #home-image {
+    width: 30%;
+    margin-top: 10%;
+  }
+
+  #github-card {
+    margin-bottom: 20%;
+  }
+
+  #javascript-card {
+    margin-bottom: 20%;
+  }
+
+  .subscribe-form {
+    max-width: 70%;
+  }
+
 }
 
 @media (max-width: 680px){
@@ -308,6 +326,7 @@
     #github-card{
         margin-bottom: 60%;
     }
+      
 
     #header > p{
         display: none;
@@ -317,5 +336,15 @@
     .cards {
       margin: 5% 0 5% 0;
   
+    }
+
+    #footer-container {
+        display: flex;
+        flex-direction: column;        
+    }    
+
+    #home-image {
+        width: 30%;
+        margin-top: 25%;
     }
   }
