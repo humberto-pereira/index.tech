@@ -18,10 +18,29 @@
   width: 80%;
 }
 
+/* hamburger menu */
+.toggle-button {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
 /* navbar-links */
 
 #navbar {
-  height: 70px;
+  height:fit-content;
   background: linear-gradient(35deg, rgba(48, 36, 255, .87), rgba(67, 221, 203, 1));
   display: flex;
   justify-content: space-between;
@@ -134,7 +153,7 @@
   /* fit text inside the card */
   text-overflow: ellipsis;
   overflow: hidden;
-  height: 10em;
+  height: 10.1em;
 }
 
 .cards > h4 {
@@ -321,8 +340,42 @@
 }
 
 @media (min-width: 680px) and (max-width: 1180px){
+  /* hamburger menu */
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links li {
+    text-align: center;
+  }
+
+  .navbar-links li a {
+    padding: .5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+/* end hamburger menu */
   #home-image {
-    width: 70vw;
+    width: 60vw;
     margin-top: 10%;
   }
 
@@ -349,43 +402,85 @@
     max-width: 70%;
   }
 
+  #feedback-form{
+    max-width: 70%;
+  }
+
 }
 
 @media (max-width: 680px){
-    #home-image {
-      width: 70%;
-      margin-top: 25%;
-    }
-    
-    #cards-container {
-      display: grid;
-      grid-template-columns: 80%;
-      justify-items: center;
-      gap: 0;
-    }
-
-    #github-card { 
-        margin-bottom: 70%;
-    }
-      
-
-    #header > p { 
-        display: none;
-        
-    }
-  
-    .cards {
-      margin: 5% 0 10% 0;
-      width: 80vw;
-  
-    }
-
-    #footer-container {
-        display: flex;
-        flex-direction: column;        
-    }    
-
-    .subscribe-form {
-      max-width: 70%;
-    }
+  .navbar-links {
+    display: none;
+    width: 100%;
   }
+
+  .navbar-links ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links li {
+    text-align: center;
+  }
+
+  .navbar-links li a {
+    padding: .5rem 1rem;
+  }
+
+  .navbar-links.active{
+    display: flex;
+  }
+
+  /* end hamburger menu */
+
+  #home-image {
+    width: 60vw;
+    margin-top: 25%;
+  }
+  
+  #cards-container {
+    display: grid;
+    grid-template-columns: 80%;
+    justify-items: center;
+    gap: 0;
+  }
+
+  #github-card { 
+      margin-bottom: 70%;
+  }
+    
+
+  #header > p { 
+      display: none;
+      
+  }
+
+  .cards {
+    margin: 5% 0 10% 0;
+    width: 80vw;
+
+  }
+
+  #footer-container {
+      display: flex;
+      flex-direction: column;        
+  }    
+
+  .subscribe-form {
+    max-width: 90%;
+  }
+
+  #feedback-form{
+    max-width: 90%;
+  }
+}
