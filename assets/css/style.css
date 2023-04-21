@@ -12,6 +12,7 @@
 #logo {
   width: 70%;
   margin-left: 3%;
+  padding: 3%;
 }
 
 #logo:hover {
@@ -171,7 +172,7 @@
 
 /* articles pages */
 
-#article-image {
+.article-image {
   margin: 10% 0 5% 0;
   width: 20%;
 }
@@ -199,6 +200,7 @@
 }
 
 #feedback-form{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   padding: 3%;
   flex-grow: 1;
@@ -374,9 +376,15 @@
   }
 
 /* end hamburger menu */
+ 
   #home-image {
-    width: 60vw;
+    width: 40vw;
     margin-top: 10%;
+  }
+
+  .article-image {
+    margin: 20% 0 5% 0;
+    width: 40%;
   }
 
   #cards-container {
@@ -405,6 +413,10 @@
   #feedback-form{
     max-width: 70%;
   }
+
+  #footer-container {
+    margin-top: 10%;       
+  }  
 
 }
 
@@ -447,6 +459,11 @@
     width: 60vw;
     margin-top: 25%;
   }
+
+  .article-image {
+    margin: 20% 0 5% 0;
+    width: 40%;
+  }
   
   #cards-container {
     display: grid;
@@ -471,16 +488,18 @@
 
   }
 
-  #footer-container {
-      display: flex;
-      flex-direction: column;        
-  }    
-
   .subscribe-form {
     max-width: 90%;
   }
 
-  #feedback-form{
+  #feedback-form {
     max-width: 90%;
   }
+
+  #footer-container {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 10%;       
+  }    
+
 }
