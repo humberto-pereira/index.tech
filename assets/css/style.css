@@ -202,10 +202,10 @@
 #feedback-form{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
+  flex-direction: column;
   padding: 3%;
   flex-grow: 1;
   max-width: 40%;
-  flex-direction: column;
   background: linear-gradient(230deg, rgba(48, 36, 255, .85), rgba(67, 221, 203, 1));
   margin-bottom: 2%;
   border-radius: .7%;
@@ -226,6 +226,7 @@
 
 .feedback {
   display: flex;
+  flex-direction: column;
   margin-top: 3%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1em;
@@ -241,28 +242,6 @@
   margin-bottom: 10%;
 }
 
-/* footer */
-
-#footer-container {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 5%;
-  font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2em;
-}
-
-#footer-container a {
-  text-decoration: none;
-  color: rgba(48, 36, 255, .85);
-}
-
-#copyright {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 5%;
-  font-size: 1em;
-  color: rgba(48, 36, 255, .85);
-}
 
 /* form subscribe */
 
@@ -304,7 +283,7 @@
 }
 
 .text-input {
-  height: 5%;
+  height: 25px;
 }
 
 /* terms and conditions */
@@ -339,6 +318,29 @@
   color: rgb(255, 255, 255);
   background-color: rgba(48, 36, 255, 1);
   border-radius: 5%;
+}
+
+/* footer */
+
+#footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5%;
+  font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+}
+
+#footer-container a {
+  text-decoration: none;
+  color: rgba(48, 36, 255, .85);
+}
+
+#copyright {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+  font-size: 1em;
+  color: rgba(48, 36, 255, .85);
 }
 
 /* tablet screen */
@@ -378,7 +380,7 @@
   }
 
 /* end hamburger menu */
- 
+
   #home-image {
     width: 40vw;
     margin-top: 10%;
