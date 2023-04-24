@@ -360,11 +360,12 @@
 
   .toggle-button {
     display: flex;
+    margin-top: 1.1%;
   }
 
   #navbar {
     flex-direction: column;
-    align-items: flex-start;
+    align-items:flex-start;
   }
 
   .navbar-links li {
@@ -443,6 +444,7 @@
 
   .toggle-button {
     display: flex;
+    margin-top: 2%;
   }
 
   #navbar {
@@ -515,4 +517,12 @@
     margin-top: 10%;       
   }    
 
+}
+
+/* galaxy fold */
+
+@media (max-width: 280px) {
+  .toggle-button {
+    margin-top: 0;
+  }
 }
