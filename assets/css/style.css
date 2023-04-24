@@ -391,6 +391,10 @@
     width: 40%;
   }
 
+  #article {
+    max-width: 87%;
+  }
+
   #cards-container {
     display: grid;
     grid-template-columns: 45% 45%;
@@ -463,6 +467,10 @@
   #home-image {
     width: 60vw;
     margin-top: 25%;
+  }
+
+  #article {
+    max-width: 87%;
   }
 
   .article-image {
