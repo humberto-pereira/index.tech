@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Teko&family=Unbounded&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
 * {
   margin: 0;
@@ -20,6 +19,7 @@
 }
 
 /* hamburger menu */
+
 .toggle-button {
   position: absolute;
   top: .75rem;
@@ -192,6 +192,17 @@
   margin: 1em 0 1em 0;
 }
 
+.tutorial-link {
+  text-decoration: none;
+  font-family: Teko;
+  color: rgba(48, 36, 255, 1);
+  font-size: 1.5em;
+}
+
+.tutorial-link:hover {
+  text-decoration: underline;
+}
+
 /* feedback */
 
 #feedback-container {
@@ -335,6 +346,11 @@
   color: rgba(48, 36, 255, .85);
 }
 
+#footer-container a:hover {
+  text-decoration: underline;
+  color: rgba(48, 36, 255, .85);
+}
+
 #copyright {
   display: flex;
   justify-content: center;
@@ -401,14 +417,13 @@
     grid-template-columns: 45% 45%;
   }
 
-  #header{
+  #header {
     width: 94%;
   }
 
   .cards {
     margin-bottom: 10%;
     width: 40vw;
-
   }
 
   .cards-bottom {
@@ -419,7 +434,7 @@
     max-width: 70%;
   }
 
-  #feedback-form{
+  #feedback-form {
     max-width: 70%;
   }
 
@@ -460,7 +475,7 @@
     padding: .5rem 1rem;
   }
 
-  .navbar-links.active{
+  .navbar-links.active {
     display: flex;
   }
 
@@ -473,6 +488,7 @@
 
   #article {
     max-width: 87%;
+    text-align: left;
   }
 
   .article-image {
@@ -491,7 +507,6 @@
       margin-bottom: 70%;
   }
     
-
   #header > p { 
       display: none;
       

@@ -1,4 +1,6 @@
-# PP1 SDLC Humberto Pereira
+# Index.Tech website
+<a href="https://humberto-pereira.github.io/index.tech/">View the live project here.</a>
+<img src="assets/readme-md-images/screenshot.png" width="1600"/>
 
 
 # User Experience (UX)
@@ -11,20 +13,24 @@
 
 ## DESIGN:
 
-- Color scheme: still being chosen. Want to try different patterns. ? 
-- Typography: still being chosen. Want to try different fonts. ?
+- Color scheme: The color scheme is white and two shades of blue that fit with the image graphics chosen for the website with enough contrast for the user. 
+- Typography: Teko is used for titles and footer;  Verdana is the most used in all text content and is easy to read and formal; the Geneva, Tahoma, and sans-serif are the backup fonts.
 - Imagery: good resolution images "not pixeled" with connection with the content.
 
 ## Thematic: Programming languages and tools; historical facts evolution and implementation.
 
-## Technologies: HTML CSS.
+## Technologies:
+- HTML, CSS and JavaScript
+## Frameworks, Libraries & Programs Used
+- 
 
 ### WebSite map
-- Menu: HOME, BLOG, SUBSCRIBE, CONTACT 
-- HOME: Landing page; logo, a brief text welcoming the user and describing the webpage, under the welcome text, four clickable blog cards. 
-- Posts: Link to Post cards.
-- SUBSCRIBE form page.      
-- CONTACT: redirect to footer with contact info. All pages follow the same style and color pattern and a footer. 
+- Menubar: Home, Articles, Subscribe, Feedback 
+- Home: Landing page: Logo, PC related graphics a brief text welcoming the user and describing the webpage, under the welcome text, four clickable Article cards and a footer.
+- Articles: Link to Articles cards.
+- Article Cards: Each Article card redirects to a specific article.
+- Subscribe: Subscribe For Receive New Posts Updates Per E-mail page.      
+- Feedback: Feedback form page.
 - 404 error page
 - Burger menu for mobile.
 
