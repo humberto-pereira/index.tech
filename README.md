@@ -1,6 +1,85 @@
 # Index.Tech website
+
+Index.Tech is a website dedicated to exploring the world of modern web development languages and tools! The website hopes to comprehensively overview the history and evolution of languages like HTML, CSS, JavaScript, and tools like GitHub. Index.Tech will give an overview of the historical facts and development of some web dev languages and tools to the user and is intended to target students and users that are curious about the theme's historical facts and its evolution through time; at the end of each article is provided a tutorial link to the users if they wish to learn more about the article thematic.  <br>
 <a href="https://humberto-pereira.github.io/index.tech/">View the live project here.</a>
-<img src="assets/readme-md-images/screenshot.png" width="1600"/>
+<img src="assets/readme-md-images/responsive-screenshot.png" width="1600"/>
+
+<br>
+<br>
+
+# Landing Page
+
+The landing page will be divided into six sections below this document: Navigation Bar, Hamburger Menu, images, Welcome Text, Cards, and Footer.
+
+<br>
+<br>
+
+# Navigation Bar
+The navigation bar on all seven pages includes links to the Logo, Home, Articles Cards, Subscribe, and Feedback and is set fixed; it is identical on each page for intuitive navigation with no need for the browser back button utilization.
+
+<img src="assets/readme-md-images/menu-bar-screenshot.png" width="1600"/>
+
+<br>
+<br>
+
+# Hamburger menu
+The Hamburger menu on the right side of the menu bar is present on all seven pages on tablets and smartphones, giving more space and usability to the menu bar on smaller screens with less space.
+
+<img src="assets/readme-md-images/hamburger-menu-screenshot.png" width="1600"/>
+<img src="assets/readme-md-images/hamburger-menu-expanded-screenshot.png" width="1600"/>
+
+<br>
+<br>
+
+# images
+
+A primary image is displayed on the Home, Subscribe, and Feedback pages; it matches the page's theme, style, and colors. 
+
+<img src="assets/readme-md-images/primary-image-screenshot.png" width="1600"/>
+
+## Additionally, there are four different images for each of the Article's cards and pages, each featuring the logo of the language or tool discussed in the Article, as shown below in the "Article Cards" section.
+
+<br>
+<br>
+
+# Welcome text
+
+The purpose of the welcome text is to introduce users to the theme and content of the webpage in a clear and engaging way. Our goal is to spark their curiosity and share our passion for this exciting field.
+
+<img src="assets/readme-md-images/welcome-text-screenshot.png" width="1600"/>
+
+# Article Cards
+
+The Article cards feature the logo image of the programming language or tool discussed in the article and a snippet of the article text. These cards are designed to provide a preview for the user and stimulate their curiosity with a visually appealing impact.
+
+<img src="assets/readme-md-images/article-cards-screenshot.png" width="1600"/>
+
+<br>
+<br>
+
+# Footer
+
+The website's footer includes links to the four leading social media platforms and an email address for contact. Clicking on any of these links will open them in a new tab, allowing the user to continue browsing the Index.Tech page. The footer is useful for users to stay connected through social media.
+
+<img src="assets/readme-md-images/footer-screenshot.png" width="1600"/>
+
+# Articles
+
+All four of the Article pages have the same style, which is simple and easy to understand. Each page has the logo of the language or tool at the top of the title, and the article text is below. When you click on an Article in the menu, it takes you to the article cards section on the home landing page. To read the article, simply click on the article card.
+
+<img src="assets/readme-md-images/articles-screenshot.png" width="1600"/>
+
+# Subscribe
+
+On the subscribe page, you will find a form that requires you to fill in three input fields: first name, last name, and email. Additionally, there is a checkbox for terms and conditions. The content of the terms and conditions is scrollable so that you can read it easily. The form's purpose is to subscribe to a newsletter and receive new posts via email. The terms and conditions are presented in a small size within the form.
+
+<img src="assets/readme-md-images/subscribe-screenshot.png" width="1600"/>
+
+# Feedback
+
+To submit feedback, users can fill out a form with their first name, last name, and email. They can then provide their input in a text box. This feedback page is designed to collect suggestions for new articles and positive or negative feedback. The developer can then use this information to improve the website based on user input.
+
+<img src="assets/readme-md-images/feedback-screenshot.png" width="700"/>
 
 
 # User Experience (UX)
