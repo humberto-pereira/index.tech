@@ -359,6 +359,13 @@
   color: rgba(48, 36, 255, .85);
 }
 
+/* credits */
+
+.credits {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
 /* tablet screen */
 
 @media (min-width: 680px) and (max-width: 1180px){
