@@ -88,13 +88,13 @@
 
 /* header-section */
 
-#header {
+.main-container {
   background: linear-gradient(230deg, rgba(48, 36, 255, .85), rgba(67, 221, 203, 1));
   margin: 0 3% 10% 3%;
   border-radius: .7%;
 }
 
-#header > h1 {
+.main-container > h1 {
   color: white;
   font-family: Teko, Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
@@ -102,7 +102,7 @@
   padding-top: 4%;
 }
 
-#header > h2 {
+.main-container > h2 {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
@@ -110,7 +110,7 @@
   margin: 2%;
 }
 
-#header > p {
+.main-container > p {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
@@ -424,7 +424,7 @@
     grid-template-columns: 45% 45%;
   }
 
-  #header {
+  .main-container {
     width: 94%;
   }
 
@@ -514,7 +514,7 @@
       margin-bottom: 70%;
   }
     
-  #header > p { 
+  .main-container > p { 
       display: none;
       
   }
