@@ -134,6 +134,7 @@
   border-radius: 2%;
   margin-bottom: 30%;
   box-shadow: 5px 10px rgba(60, 60, 60, .6);
+  padding-bottom: 5%;
 }
 
 .cards:hover {
@@ -148,7 +149,7 @@
 
 .cards > p {
   text-align: center;
-  padding: 0 5% 5% 5%;
+  padding: 0 5% 0% 5%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(60, 60, 60);
   /* fit text inside the card */
