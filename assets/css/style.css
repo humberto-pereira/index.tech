@@ -155,7 +155,6 @@
   /* fit text inside the card */
   text-overflow: ellipsis;
   overflow: hidden;
-  height: 10.1em;
 }
 
 .cards > h4 {
