@@ -79,7 +79,60 @@ On the subscribe page, you will find a form that requires you to fill in three i
 
 To submit feedback, users can fill out a form with their first name, last name, and email. They can then provide their input in a text box. This feedback page is designed to collect suggestions for new articles and positive or negative feedback. The developer can then use this information to improve the website based on user input.
 
-<img src="assets/readme-md-images/feedback-screenshot.png" width="700"/>
+<img src="assets/readme-md-images/feedback-screenshot.png" width="1600"/>
+
+# Testing
+
+- It was conducted manual testing on several browsers, including Safari, Edge, Chrome, Firefox, and all Chrome inspect screen sizes. 
+- During testing, we checked that all Menubar links and Cards Articles were displayed and behaved as expected when clicked, and all texts were displayed correctly. 
+- All footer links open in a new browser tab, similar to Article links. Additionally, it was ensured that the Articles pages, images, and texts were displayed without any issues. 
+- On the Subscribe page, the form requires all input fields to be filled, a valid email, and the Terms and Conditions checkbox to be selected. 
+- It was also confirmed that the scroll function for Terms and Conditions worked as expected, and the form was submitted without problems. 
+- The Feedback page is displayed as expected all input fields are required to be filled, and a valid email format is necessary before submitting; feedback submission also works as expected.
+- On Smartphone and tablet screens, the site is fully responsive on all pages, including a hamburger menu that works flawlessly.
+
+# Validator Testing
+
+## W3C HTML Validator Links
+
+- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2F">Home Landing Page:</a>
+
+- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2Fsubscribe.html">Subscribe Page: </a>
+
+- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2Fsubscribe.html">Feedback Page:</a>
+
+- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2Fhtml-article.html">HTML Article Page:</a>
+
+- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2Fcss-article.html">CSS Article Page:</a>
+
+- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2Fjavascript-article.html">JavaScript Article Page:</a>
+
+
+- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2Fgithub-article.html">GitHub Article Page:</a>
+
+## W3C Css Validator Jigsaw
+
+- <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=pt-BR">W3C CSS Validator Jigsaw</a>
+
+## chrome Lighthouse Screenshots
+
+## desktop:
+<img src="assets/readme-md-images/lighthouse-screenshot-desktop.png" width="1600"/>
+
+## mobile:
+<img src="assets/readme-md-images/lighthouse-screenshot-mobile.png" width="1600"/>
+
+# Deployment
+
+## To deploy your repository, follow these steps: 
+- 1. Go to Settings. 
+- 2. Select Pages from the left side menu. 
+- 3. In the Source option, choose "Deploy from a branch." 
+- 4. At the Branch option, select Main and ensure the root file is also chosen. 
+- 5. Click on Save. 
+- 6. Wait for a few seconds, then refresh the page. Your deployed page will be live, and your webpage link will be displayed.
+
+
 
 
 # User Experience (UX)
