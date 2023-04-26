@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
 }
 
 /* nav bar */
@@ -152,9 +152,7 @@
   padding: 0 5% 0% 5%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(60, 60, 60);
-  /* fit text inside the card */
-  text-overflow: ellipsis;
-  overflow: hidden;
+  box-sizing: content-box !important;
 }
 
 .cards > h4 {
