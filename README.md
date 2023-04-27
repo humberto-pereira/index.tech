@@ -71,7 +71,7 @@ All four of the Article pages have the same style, which is simple and easy to u
 
 # Subscribe
 
-On the subscribe page, you will find a form that requires you to fill in three input fields: first name, last name, and email. Additionally, there is a checkbox for terms and conditions. The content of the terms and conditions is scrollable so that you can read it easily. The form's purpose is to subscribe to a newsletter and receive new posts via email. The terms and conditions are presented in a small size within the form.
+On the subscribe page, you will find a form that requires you to fill in three input fields: first name, last name, and email. Additionally, there is a checkbox for terms and conditions. The content of the terms and conditions is scrollable so the user can read it easily. The form's purpose is to subscribe to a newsletter and receive new posts via email. The terms and conditions are presented in a small size within the form.
 
 <img src="assets/readme-md-images/subscribe-screenshot.png" width="1600"/>
 
@@ -83,9 +83,10 @@ To submit feedback, users can fill out a form with their first name, last name, 
 
 # Testing
 
-- It was conducted manual testing on several browsers, including Safari, Edge, Chrome, Firefox, and all Chrome inspect screen sizes. 
-- During testing, we checked that all Menubar links and Cards Articles were displayed and behaved as expected when clicked, and all texts were displayed correctly. 
-- All footer links open in a new browser tab, similar to Article links. Additionally, it was ensured that the Articles pages, images, and texts were displayed without any issues. 
+- Manual testing was conducted on several browsers, including Safari, Edge, Chrome, Firefox, and all Chrome inspect screen sizes. 
+During testing, we checked that all Menubar links and Cards Articles were displayed and behaved as expected when clicked, and all texts were displayed correctly. 
+- All four Articles are displayed as expected with no issues.
+- All footer links open in a new browser tab, similar to Article links. Additionally, it was ensured that the all images, and texts were displayed without any issues. 
 - On the Subscribe page, the form requires all input fields to be filled, a valid email, and the Terms and Conditions checkbox to be selected. 
 - It was also confirmed that the scroll function for Terms and Conditions worked as expected, and the form was submitted without problems. 
 - The Feedback page is displayed as expected all input fields are required to be filled, and a valid email format is necessary before submitting; feedback submission also works as expected.
@@ -125,15 +126,38 @@ To submit feedback, users can fill out a form with their first name, last name, 
 # Deployment
 
 ## To deploy your repository, follow these steps: 
-- 1. Go to Settings. 
-- 2. Select Pages from the left side menu. 
-- 3. In the Source option, choose "Deploy from a branch." 
-- 4. At the Branch option, select Main and ensure the root file is also chosen. 
-- 5. Click on Save. 
-- 6. Wait for a few seconds, then refresh the page. Your deployed page will be live, and your webpage link will be displayed.
+- 1. Select the desired repository to be deployed
+- 2. Click on Settings. 
+- 3. Select Pages from the left side menu. 
+- 4. In the Source option, choose "Deploy from a branch." 
+- 5. At the Branch option, select Main; and ensure the root file is also chosen. 
+- 6. Click on Save. 
+- 7. Wait for a few seconds, then refresh the page. Your deployed page will be live, and your webpage link will be displayed.
 
+# There aren't any known unfixed bugs
 
+# Credits
 
+## Code:
+- Hamburger menu: Html, CSS and JavaScript was taken from youtube channel Web Dev Simplified Tutorial - <a href="https://www.youtube.com/watch?v=At4B7A4GOPg&list=PLUNoBnR80iZC4QtWXaoi8hj9rMHcI9rAQ&index=9&ab_channel=WebDevSimplified">Responsive Navbar Tutorial</a>
+- Navbar HTML was based on the Code Institute Love Running "Navigation style" lessons - <a href="https://www.youtube.com/watch?v=At4B7A4GOPg&list=PLUNoBnR80iZC4QtWXaoi8hj9rMHcI9rAQ&index=9&ab_channel=WebDevSimplified">"Navigation style" lessons</a>
+- Subscribe Form was based on the Code Institute Love Running  - <a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2020/courseware/fcc67a894619420399970ae84fc4802f/643317b091da4eef98fe9e0812a71715/">"Signup Form: Challenge 2"</a>
+- Feedback form HTML was based on the Code Institute - <a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2020/courseware/fcc67a894619420399970ae84fc4802f/643317b091da4eef98fe9e0812a71715/">"The textarea Challenge"</a>
+- All CSS flex box code was learned at W3 Schools - <a href="https://www.w3schools.com/css/css3_flexbox.asp">"CSS Flexbox Tutorial"</a>
+- The Terms and Conditions scrollbar was learned at - <a href="https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp">W3 Schools How to custom scrollbar tutorial</a>
+- Favicon HTML snippet taken from - <a href="https://www.w3schools.com/html/html_favicon.asp">w3 Schools</a>
+
+# Media
+## Images
+- The hero image on Landing Page "Home," "Subscribe," and  "Feedback" source is  - <a href="https://www.freepik.com/free-vector/desktop-smartphone-app-development_10276838.htm#&position=5&from_view=collections">Freepik</a>
+- Articles Images, and Subscribe envelope image source is - <a href="https://www.pngegg.com/">PNGEgg</a>
+- Footer icons source is - <a href="https://fontawesome.com/">Font Awesome</a>
+- Favicon image source is - <a href="https://favicon.io/favicon-generator/">Favicon.io</a>
+- Index.Tech Logo was created with the Canva app. 
+## Articles
+- All Articles, Welcome "Home" text and Terms and Conditions were written by <a href="https://openai.com/blog/chatgpt">ChatGPT OPEN AI</a>
+## Fonts
+- The Teko font source is - <a href="https://fonts.google.com/">Google Fonts</a>
 
 # User Experience (UX)
 
