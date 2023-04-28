@@ -1,7 +1,7 @@
 # Index.Tech website
 
 Index.Tech is a website dedicated to exploring the world of modern web development languages and tools! The website hopes to comprehensively overview the history and evolution of languages like HTML, CSS, JavaScript, and tools like GitHub. Index.Tech will give an overview of the historical facts and development of some web dev languages and tools to the user and is intended to target students and users that are curious about the theme's historical facts and its evolution through time; at the end of each article is provided a tutorial link to the users if they wish to learn more about the article thematic.  <br>
-<a href="https://humberto-pereira.github.io/index.tech/">View the live project here.</a>
+<a href=" https://humberto-pereira.github.io/indextech/">View the live project here.</a>
 <img src="assets/readme-md-images/responsive-screenshot.png" width="1600"/>
 
 <br>
@@ -109,27 +109,27 @@ If The user encounter a 404 error, this page will show an error message that sug
 
 ## W3C HTML Validator Links
 
-- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2F">Home Landing Page:</a>
+- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findextech%2F">Home Landing Page:</a>
 
-- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2Fsubscribe.html">Subscribe Page: </a>
+- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findextech%2Fsubscribe.html">Subscribe Page: </a>
 
-- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2Ffeedback.html">Feedback Page:</a>
+- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findextech%2Ffeedback.html">Feedback Page:</a>
 
-- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2Fhtml-article.html">HTML Article Page:</a>
+- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findextech%2Fhtml-article.html">HTML Article Page:</a>
 
-- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2Fcss-article.html">CSS Article Page:</a>
+- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findextech%2Fcss-article.html">CSS Article Page:</a>
 
-- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2Fjavascript-article.html">JavaScript Article Page:</a>
+- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findextech%2Fjavascript-article.html">JavaScript Article Page:</a>
 
 
-- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2Fgithub-article.html">GitHub Article Page:</a>
+- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findextech%2Fgithub-article.html">GitHub Article Page:</a>
 
 - Screenshot of 404.html W3C Validator by direct input
 - <img src="assets/readme-md-images/404-direct-input-w3c-validator.png" width="1600"/>
 
 ## W3C Css Validator Jigsaw
 
-- <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=pt-BR">W3C CSS Validator Jigsaw</a>
+- <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhumberto-pereira.github.io%2Findextech%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=pt-BR">W3C CSS Validator Jigsaw</a>
 
 ## chrome Lighthouse Screenshots
 
@@ -151,7 +151,7 @@ If The user encounter a 404 error, this page will show an error message that sug
 - 7. Wait for a few seconds, then refresh the page. Your deployed page will be live, and your webpage link will be displayed.
 
 ## - The live link can be found here:
-## <a href="https://humberto-pereira.github.io/index.tech/">Index.Tech live link </a>
+## <a href=" https://humberto-pereira.github.io/indextech/">Index.Tech live link </a>
 
 # There aren't any known unfixed bugs
 
