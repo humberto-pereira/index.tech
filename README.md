@@ -81,6 +81,12 @@ To submit feedback, users can fill out a form with their first name, last name, 
 
 <img src="assets/readme-md-images/feedback-screenshot.png" width="1600"/>
 
+# 404 page
+If The user encounter a 404 error, this page will show an error message that suggests checking the URL in your web browser if you arrived here accidentally. Additionally, it provides a link to return to the Index.Thec Home Page.
+
+<img src="assets/readme-md-images/404-page-screenshot.png" width="1600"/>
+
+
 # Testing
 
 - Manual testing was conducted on several browsers, including Safari, Edge, Chrome, Firefox, and all Chrome inspect screen sizes. 
@@ -91,6 +97,7 @@ During testing, we checked that all Menubar links and Cards Articles were displa
 - It was also confirmed that the scroll function for Terms and Conditions worked as expected, and the form was submitted without problems. 
 - The Feedback page is displayed as expected all input fields are required to be filled, and a valid email format is necessary before submitting; feedback submission also works as expected.
 - On Smartphone and tablet screens, the site is fully responsive on all pages, including a hamburger menu that works flawlessly.
+- The 404 error is displayed as expected, providing a link to return to the website home page. The link has been tested in all browsers and works with no issues.
 
 # Validator Testing
 
@@ -134,6 +141,9 @@ During testing, we checked that all Menubar links and Cards Articles were displa
 - 6. Click on Save. 
 - 7. Wait for a few seconds, then refresh the page. Your deployed page will be live, and your webpage link will be displayed.
 
+## - The live link can be found here:
+## <a href="https://humberto-pereira.github.io/index.tech/">Index.Tech live link </a>
+
 # There aren't any known unfixed bugs
 
 # Credits
@@ -169,16 +179,19 @@ During testing, we checked that all Menubar links and Cards Articles were displa
 
 ## DESIGN:
 
-- Color scheme: The color scheme is white and two shades of blue that fit with the image graphics chosen for the website with enough contrast for the user. 
-- Typography: Teko is used for titles and footer;  Verdana is the most used in all text content and is easy to read and formal; the Geneva, Tahoma, and sans-serif are the backup fonts.
+- Color scheme: The color scheme is a gradient of two shades of blue and white it fit with the image graphics chosen for the website with enough contrast for the user. 
+- Typography: Teko is used for titles and footer;  Verdana is the most used in all text content and is easy to read; the Geneva, Tahoma, and sans-serif are the backup fonts.
 - Imagery: good resolution images "not pixeled" with connection with the content.
 
 ## Thematic: Programming languages and tools; historical facts evolution and implementation.
 
 ## Technologies:
-- HTML, CSS and JavaScript
-## Frameworks, Libraries & Programs Used
-- 
+
+- HTML, CSS and JavaScript.
+
+## Frameworks, Libraries & Application Used:
+
+- Balsamiq app, VS Studio code.
 
 ### WebSite map
 - Menubar: Home, Articles, Subscribe, Feedback 
