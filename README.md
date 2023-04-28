@@ -97,7 +97,7 @@ During testing, we checked that all Menubar links and Cards Articles were displa
 - It was also confirmed that the scroll function for Terms and Conditions worked as expected, and the form was submitted without problems. 
 - The Feedback page is displayed as expected all input fields are required to be filled, and a valid email format is necessary before submitting; feedback submission also works as expected.
 - On Smartphone and tablet screens, the site is fully responsive on all pages, including a hamburger menu that works flawlessly.
-- The 404 error is displayed as expected, providing a link to return to the website home page. The link has been tested in all browsers and works with no issues.
+- The 404 error is displayed as expected, providing a link to return to the website home page.
 
 # Validator Testing
 
