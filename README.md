@@ -50,7 +50,7 @@ The purpose of the welcome text is to introduce users to the theme and content o
 
 # Article Cards
 
-The Article cards feature the logo image of the programming language or tool discussed in the article and a snippet of the article text. These cards are designed to provide a preview for the user and stimulate their curiosity with a visually appealing impact.
+The Article cards display the logo of the programming language or tools discussed in the article. Additionally, a scrollbar was implemented, and the message "click to continue reading" displays at the end of the first paragraph. Also, it changes the color to another shade of white when hovered to indicate that the card is clickable. The cards were created to give users a preview of the content and entice them to read more. To access the full article, users can click anywhere on the card.
 
 <img src="assets/readme-md-images/article-cards-screenshot.png" width="1600"/>
 
@@ -71,7 +71,7 @@ All four of the Article pages have the same style, which is simple and easy to u
 
 # Subscribe
 
-On the subscribe page, you will find a form that requires you to fill in three input fields: first name, last name, and email. Additionally, there is a checkbox for terms and conditions. The content of the terms and conditions is scrollable so the user can read it easily. The form's purpose is to subscribe to a newsletter and receive new posts via email. The terms and conditions are presented in a small size within the form.
+On the subscribe page, you will find a form that requires you to fill in three input fields: first name, last name, and email. Additionally, there is a checkbox for terms and conditions. The content of the terms and conditions is scrollable so the user can read it easily. The form's purpose is to the user subscribe to a newsletter and receive new posts via email.
 
 <img src="assets/readme-md-images/subscribe-screenshot.png" width="1600"/>
 
@@ -89,15 +89,21 @@ If The user encounter a 404 error, this page will show an error message that sug
 
 # Testing
 
-- Manual testing was conducted on several browsers, including Safari, Edge, Chrome, Firefox, and all Chrome inspect screen sizes. 
-During testing, we checked that all Menubar links and Cards Articles were displayed and behaved as expected when clicked, and all texts were displayed correctly. 
+- Manual testing was conducted on several browsers, including Safari, Edge, Chrome, Firefox, and Chrome dev tools devices sizes. 
+- During testing, we checked that all Menubar links and Cards Articles were displayed and behaved as expected when clicked, and all texts were displayed correctly. 
+- It was also confirmed that the landing page Article cards display and resize evenly on all display sizes, and the scrollable text works flawlessly.
 - All four Articles are displayed as expected with no issues.
-- All footer links open in a new browser tab, similar to Article links. Additionally, it was ensured that the all images, and texts were displayed without any issues. 
+- All footer links open in a new browser tab, similar to Article tutorial links. Additionally, it was ensured that the all images, and texts were displayed without any issues. 
 - On the Subscribe page, the form requires all input fields to be filled, a valid email, and the Terms and Conditions checkbox to be selected. 
 - It was also confirmed that the scroll function for Terms and Conditions worked as expected, and the form was submitted without problems. 
 - The Feedback page is displayed as expected all input fields are required to be filled, and a valid email format is necessary before submitting; feedback submission also works as expected.
 - On Smartphone and tablet screens, the site is fully responsive on all pages, including a hamburger menu that works flawlessly.
-- The 404 error is displayed as expected, providing a link to return to the website home page.
+- When an error occurs, the 404 error is displayed and includes a link to the website's home page tha works with no issues.
+
+## Bugs
+- The article cards had sizing issues on smaller screens due to the different lengths of the snippet text words. This caused the cards to have varying heights and some flex-box cards to resize unevenly, resulting in text overflow on smaller screens. Despite trying various solutions, none worked until a scrollbar was added to the text container. This fixed the issue, resulting in uniform card height across all screen sizes and no text overflow. The bug has been fixed.
+
+- The VS Code Prettier extension had added trailing slashes, which resulted in a warning message at the W3C validator. However, the issue has been resolved.
 
 # Validator Testing
 
@@ -107,7 +113,7 @@ During testing, we checked that all Menubar links and Cards Articles were displa
 
 - <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2Fsubscribe.html">Subscribe Page: </a>
 
-- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2Fsubscribe.html">Feedback Page:</a>
+- <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2Ffeedback.html">Feedback Page:</a>
 
 - <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2Fhtml-article.html">HTML Article Page:</a>
 
@@ -117,6 +123,9 @@ During testing, we checked that all Menubar links and Cards Articles were displa
 
 
 - <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fhumberto-pereira.github.io%2Findex.tech%2Fgithub-article.html">GitHub Article Page:</a>
+
+- Screenshot of 404.html W3C Validator by direct input
+- <img src="assets/readme-md-images/404-direct-input-w3c-validator.png" width="1600"/>
 
 ## W3C Css Validator Jigsaw
 
@@ -179,9 +188,9 @@ During testing, we checked that all Menubar links and Cards Articles were displa
 
 ## DESIGN:
 
-- Color scheme: The color scheme is a gradient of two shades of blue and white it fit with the image graphics chosen for the website with enough contrast for the user. 
-- Typography: Teko is used for titles and footer;  Verdana is the most used in all text content and is easy to read; the Geneva, Tahoma, and sans-serif are the backup fonts.
-- Imagery: good resolution images "not pixeled" with connection with the content.
+-The website's color scheme consists of a gradient of two shades of blue and white, which complements the chosen image graphics and provides sufficient contrast for the user. 
+-For titles and footer, the font used is Teko, while Verdana is the preferred font for all text content as it is easy to read. In case of any font compatibility issues, Geneva, Tahoma, and sans-serif are the backup fonts.
+- The website uses high-quality images that are relevant to the content and have good resolution without any pixelation.
 
 ## Thematic: Programming languages and tools; historical facts evolution and implementation.
 
